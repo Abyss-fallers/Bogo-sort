@@ -1,0 +1,26 @@
+#!/bin/sh
+
+# Run Prettier to format the code
+npm run prettier --silent
+
+# Check the exit status of the previous command
+if [ $? -eq 0 ]; then
+  echo "Prettier: All files formatted successfully"
+else
+  echo "Prettier: Some files failed to format"
+  exit 1
+fi
+
+# Run ESLint to lint the code
+npm run lint
+
+# Check the exit status of the previous command
+if [ $? -eq 0 ]; then
+  echo "ESLint: All files linted successfully"
+else
+  echo "ESLint: Some files failed linting"
+  exit 1
+fi
+
+# If both Prettier and ESLint succeeded, exit with success status
+exit 0

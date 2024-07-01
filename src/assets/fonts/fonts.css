@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Arvo';
+  src: url('./Arvo-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Arvo';
+  src: url('./Arvo-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-display: swap;
+}

@@ -1,0 +1,30 @@
+{
+  "authors": [
+    {
+      "name": "Shevchenko Timofey",
+      "socialMedia": [
+        {
+          "name": "Github",
+          "link": "https://github.com/JlwxdQueen"
+        },
+        {
+          "name": "Telegram",
+          "link": "https://t.me/Jlwxd"
+        }
+      ]
+    },
+    {
+      "name": "Oberlev Daniil",
+      "socialMedia": [
+        {
+          "name": "Github",
+          "link": "https://github.com/Daniil-Oberlev"
+        },
+        {
+          "name": "Telegram",
+          "link": "https://t.me/OberlevD"
+        }
+      ]
+    }
+  ]
+}
